@@ -1,4 +1,7 @@
 name: Cloud check in action
+permissions:
+  contents: write
+  actions: write
 on:
   push:
     branches:
